@@ -32,3 +32,14 @@ function appendKitten(name) {
   var newKittenArray = [...kittens, name];
   return newKittenArray
 }
+
+var kittens = ["Milo", "Otis", "Garfield"]
+
+function prependKitten(name) {
+  var newKittenArray = [name, ...kittens]
+  return newKittenArray
+}
+
+function removeLastKitten() {
+  slice
+}
